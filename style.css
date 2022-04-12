@@ -33,6 +33,7 @@ a {
   display: inline-block;
   font-weight: 500;
   transition: color 0.2s;
+
 }
 
 a:hover {
@@ -55,6 +56,7 @@ a:hover {
   font-size: 16px;
   /* padding: 0.8rem; */
   /* font-size: 0.5rem; */
+
 }
 .nav-bg:hover {
   background-color: #051233;
@@ -69,6 +71,7 @@ a:hover {
       position: relative;
       display: inline-block;
 } */
+
 .dropdown-items {
   position: absolute;
   background-color: rgb(212, 226, 220);
@@ -93,8 +96,10 @@ dd {
   padding: 4%;
   color: dimgray;
 }
+
 .dropdown:hover .dropdown-items {
   display: block;
   /* height: max-content; */
   opacity: 1;
+
 }
