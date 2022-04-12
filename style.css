@@ -1,0 +1,99 @@
+*{
+      margin:0;
+      padding:0;
+      display:border-box;
+}
+
+body{
+      font-family: 'Chelsea Market', cursive;
+      font-size: 16px;
+}
+
+header{
+      padding: 1% 0 0 0;
+      /* margin:0 184.5px; */
+      height: 100px;
+}
+
+ul{
+      padding:0px 20%;
+      list-style-type: none;
+      display:flex;
+      justify-content: space-between;
+      flex-direction: row;
+}
+
+
+
+a{
+      color:#767;
+      text-decoration:none;
+      display: inline-block;
+      font-weight: 500;
+      transition: color 0.2s;
+
+}
+
+a:hover{
+      color:#102B78;
+}
+
+.nav-image{
+      height:50px;
+}
+
+.nav-items{
+      margin:20px;
+}
+
+.nav-bg{
+      margin-top: 5px;
+      background-color: #102B78;
+      border-radius: 40%;
+      padding: 0.8rem;
+      /* font-size: 0.5rem; */
+}
+.nav-bg:hover{
+      background-color: #051233;
+}
+
+.nav-bg a{
+      color:white;
+}
+
+/* Dropdown */
+/* .dropdown{
+      position: relative;
+      display: inline-block;
+} */
+.dropdown-items{
+      display: none;
+      position: absolute;
+      background-color: rgb(212, 226, 220);
+      margin-top: 0.5%;
+      
+      color:black;
+      box-shadow:red;
+      z-index: 1;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      max-width: 400px;
+      transition: height 2s;     
+      
+      height:0px;
+      opacity: 0;
+      pointer-events: none;
+}
+dl{
+      display: grid;
+      grid-template-columns: auto auto;
+}
+
+dd{
+      padding: 4%;
+      color:dimgray;
+}
+.dropdown:hover .dropdown-items{
+      display:block;
+      height: 100px;
+      opacity:1;
+}
